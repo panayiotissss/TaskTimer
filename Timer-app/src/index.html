@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Task Timer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GOALS</h1>
+    <div id="taskList">
+      <!-- Tasks will appear here -->
+    </div>
+    <div id="newTaskForm">
+      <label for="taskInput">Task Name:</label>
+      <input type="text" id="taskInput" placeholder="Enter task name">
+      
+      <label for="timeInput">Time to allocate (in hours):</label>
+      <input type="number" id="timeInput" placeholder="e.g., 1" min="1">
+      
+      <button id="addTaskBtn">Add Task</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html> 

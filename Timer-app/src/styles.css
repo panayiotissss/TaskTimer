@@ -1,0 +1,147 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container styling */
+.container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Task form styling */
+#newTaskForm {
+  margin-top: 20px;
+}
+
+#newTaskForm label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+#newTaskForm input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#newTaskForm button {
+  width: 100%;
+  padding: 12px;
+  background-color: #5563DE;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#newTaskForm button:hover {
+  background-color: #3F51B5;
+}
+
+/* Task list */
+#taskList {
+  margin-top: 30px;
+  max-height: 500px; /* Adjust height as needed */
+  overflow-y: auto;
+}
+
+/* Individual task styling */
+.task {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-info {
+  text-align: left;
+}
+
+.task-info h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.timerDisplay {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Task actions buttons styling */
+.task-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.startStopBtn {
+  background-color: #56c596;
+}
+
+.startStopBtn:hover {
+  background-color: #43a485;
+}
+
+.resetBtn {
+  background-color: #FFA500;
+}
+
+.resetBtn:hover {
+  background-color: #e59400;
+}
+
+.deleteBtn {
+  background-color: #e74c3c;
+}
+
+.deleteBtn:hover {
+  background-color: #c0392b;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+} 
